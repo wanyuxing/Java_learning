@@ -7,15 +7,16 @@ public class P2_17 {
 		
 		// Get the first and second time from inputs
 		System.out.print("Plesase enter the first time: ");
-		String first = in.next();
+		int first = in.nextInt();
 		System.out.print("Please enter the second time: ");
-		String second = in.next();
+		int second = in.nextInt();
+		in.close();
 		
 		// Convert strings into numbers
-		int first_hour = Integer.parseInt(first) / 100;
-		int second_hour = Integer.parseInt(second) / 100;
-		int first_minute = Integer.parseInt(first) % 100;
-		int second_minute = Integer.parseInt(second) % 100;
+		int first_hour = first / 100;
+		int second_hour = second / 100;
+		int first_minute = first % 100;
+		int second_minute = second % 100;
 		
 		// Calculate difference
 		int first_in_minutes = first_hour * 60 + first_minute;

@@ -6,7 +6,9 @@ public class P3_21 {
 		// store salary input
 		Scanner in = new Scanner(System.in);
 		System.out.print("Pls input your salary: ");
-		int salary = Integer.parseInt(in.next());
+		double salary = in.nextDouble();
+		
+		in.close();
 		
 		// evaluate the salary and calculate tax
 		double tax;

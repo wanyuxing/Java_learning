@@ -17,12 +17,12 @@ public class P4_6 {
 		{
 			if (first)
 			{
-				min = Double.parseDouble(in.next());
+				min = in.nextDouble();
 				first = false;
 			}
 			else
 			{
-				input = Double.parseDouble(in.next());
+				input = in.nextDouble();
 				if (input < min) {min = input;}
 			}
 		}

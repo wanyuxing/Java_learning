@@ -6,7 +6,8 @@ public class P4_18 {
 		// store an integer input
 		Scanner in = new Scanner(System.in);
 		System.out.print("Pls enter a positive integer: ");
-		int input = Integer.parseInt(in.next());
+		int input = in.nextInt();
+		in.close();
 		
 		// print prime integers
 		for (int i = 1; i <= input; i++)

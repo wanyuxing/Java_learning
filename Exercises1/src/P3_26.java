@@ -6,7 +6,8 @@ public class P3_26 {
 		// store a number input
 		Scanner in = new Scanner(System.in);
 		System.out.print("Pls enter a number within 3999: ");
-		int num = Integer.parseInt(in.next());
+		int num = in.nextInt();
+		in.close();
 		
 		// divide a num into thousands, hundreds, tens, and ones
 		int one = num % 10;

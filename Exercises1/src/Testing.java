@@ -1,8 +1,7 @@
 public class Testing {
 
 	public static void main(String[] args) {
-		System.out.println(Math.round(1.2) / 10);
-
+		System.out.printf("%7d | %10d", 12, 34);
 	}
 
 }

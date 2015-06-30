@@ -6,10 +6,12 @@ public class P3_18 {
 		Scanner in = new Scanner(System.in);
 		
 		System.out.print("Pls input the month: ");
-		int mon = Integer.parseInt(in.next());
+		int mon = in.nextInt();
 		
 		System.out.print("Pls input the day: ");
-		int day = Integer.parseInt(in.next());
+		int day = in.nextInt();
+		
+		in.close();
 		
 		// assess mon and day to determine season
 		String season = null;

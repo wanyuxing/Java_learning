@@ -6,8 +6,8 @@ public class P4_11 {
 		// store a string input
 		Scanner in = new Scanner(System.in);
 		System.out.print("Pls enter a string: ");
-		
 		String input = in.next();
+		in.close();
 		
 		// initilization
 		char alf = '\0';

@@ -15,6 +15,8 @@ public class P3_16 {
 		System.out.print("Pls input 3rd string: ");
 		String stringC = in.next();
 		
+		in.close();
+		
 		// compare and output strings in lexicographic order
 		if (stringA.compareTo(stringB) < 0) 
 		{

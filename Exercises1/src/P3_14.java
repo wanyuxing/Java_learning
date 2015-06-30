@@ -3,17 +3,19 @@ import java.util.Scanner;
 public class P3_14 {
 	public static void main(String[] args) 
 	{
-		// get input
+		// get inputs
 		Scanner in = new Scanner(System.in);
 		System.out.print("Plesase enter your card: ");
 		String input = in.next();
+		in.close();
+		
+		String card_num = null;
 		
 		if (input.length() == 2) 
 		{
 			char num = input.charAt(0);
 					
 			// convert the first char into a string
-			String card_num = null;
 		    switch (num) {
 				case '2': card_num = "2"; break;
 				case '3': card_num = "3"; break;
@@ -28,26 +30,23 @@ public class P3_14 {
 				case 'K': card_num = "King"; break;
 				case 'A': card_num = "Ace"; break;
 				}	
-			
-		    // general output
-		    System.out.printf("%s of ", card_num);
 		}
 		else 
 		{
-			System.out.printf("10 of ");
+			card_num = "10";
 		}
 		
 		// convert the second char into a string
-		String card_name = null;
+		
 		char name = input.charAt(input.length() - 1);
 		
 	    switch (name)
 	    {
-			case 'D': card_name = "Diamonds"; break;
-			case 'H': card_name = "Hearts"; break;
-			case 'S': card_name = "Spades"; break;
-			case 'C': card_name = "Clubs"; break;
+			case 'D': card_num += " of Diamonds"; break;
+			case 'H': card_num += " of Hearts"; break;
+			case 'S': card_num += " of Spades"; break;
+			case 'C': card_num += " of Clubs"; break;
 		}    
-	    System.out.print(card_name);
+	    System.out.print(card_num);
     }
 }
