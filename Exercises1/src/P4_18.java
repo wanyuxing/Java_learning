@@ -17,7 +17,7 @@ public class P4_18 {
 	}
 	
 	// define a method evaluating whether a positive integer is a prime
-			private static boolean prime (int num)
+			private static boolean prime(int num)
 			{
 				int count = 0;
 				
