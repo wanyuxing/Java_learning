@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class P5_25 {
 
 	public static void main(String[] args) {
-		// get zipcode input
 		Scanner in = new Scanner(System.in);
 		System.out.print("Please input a zipcode: ");
 		int input = in.nextInt();
 		in.close();
-		// print out encoded bars
+		
 		printBarCode(input);
 	}
 	public static void printDigit(int d) {
@@ -55,5 +54,4 @@ public class P5_25 {
 		printDigit(10 - sum % 10);
 		System.out.println("|");
 	}
-
 }
