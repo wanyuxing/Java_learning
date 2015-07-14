@@ -6,9 +6,9 @@ public class P6_28 {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> a = new ArrayList<Integer>();
-		a.add(1); a.add(4); a.add(9); a.add(16);
+		a.add(1); a.add(4); a.add(9); a.add(16); a.add(17); a.add(100);
 		ArrayList<Integer> b = new ArrayList<Integer>();
-		b.add(4); b.add(7); b.add(9); b.add(9); b.add(11);
+		b.add(4); b.add(7); b.add(9); b.add(9); b.add(11); b.add(18); b.add(1000); b.add(10000);
 		ArrayList<Integer> c = mergeSorted(a, b);
 		for (int k = 0; k < c.size(); k++) {System.out.print(c.get(k)); System.out.print(" ");}
 	}
