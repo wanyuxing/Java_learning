@@ -12,7 +12,8 @@ public class Car
 	
 	public void addGas(double gallon)
 	{
-		this.gallon += gallon;
+		this.gallon += gallon; 
+		// it's better to choose a variable name other than "gallon" to avoid confusing, because these two "gallon" have different meaning
 	}
 	
 	public void drive(double miles)

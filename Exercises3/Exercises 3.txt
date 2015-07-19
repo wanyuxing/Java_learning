@@ -1,0 +1,74 @@
+Review Exercises: 3 points each. Starting on page 405 of textbook Big Java. Place your answers in
+ReviewExercises.txt located in the root of this project.
+
+R8.1 Encapsulation
+	 a) the process of providing a public interface, while hiding the implementation details
+	 b) when encapsulated, the improvements of existing program don't affect the programmers that use the objects
+R8.4 Public interface
+     a) the set of all methods provided by a class, together with a description of their behavior
+     b) PUBLIC INTERFACE is a collection of methods and decriptions, while IMPLEMENTATION is how methods work
+R8.7 Instance versus static
+	 a) Instance methods are the ones that you invoke on an object
+	 b) Static methods belong to the class, not to any object of the class
+
+// An instance method can access the instance variables of the object on which it acts, and it is invoked on an object. In contrast, static method is the classes that can declare methods that are not invoked on an object.
+
+R8.8 Mutator and accessor
+	 a) Mutator method changes the object on which it operates
+	 b) Accessor method doesn't
+
+// the accessor method queries the object for information without changing it
+
+R8.9 Implicit parameter
+	 a) The object on which a method is invoked is called the implicit parameter
+	 b) Explicit parameters are listed in the method declaration
+
+R8.10 Implicit parameter
+	 a) b) c) unlimited
+
+// make sure you understand this part
+	 An instance method can have one implicit parameter, which is the object.
+     A static method has no implicit parameter.
+     An instance method can have multiple explicit parameters
+
+R8.12 Constructors
+	 a）unlimited
+	 b) at least one
+	 c) Any one of them can be called // No! The compiler calls the constructor that matches the construction arguments. - Make sure you understand this!
+
+R8.16 Instance variables
+	 Private means the variable is only visible within this class
+
+//  An object’s instance variable store the data required for executing its methods, and an instance method can access the instance variables of the object on which it acts. A instance variable, which has the private modifier, can only be accessed by the method of its own class.
+
+R8.19 The this reference
+	 a) In a method, the this reference refers to the implicit parameter
+	 b) it can help you differentiate between local variables and instance variables
+
+R8.20 Zero, null, false, empty String
+	 a) zero is a number (one of the primitive types)
+// there is no "number" in programming concept, you should say "zero is an integer"
+	 b) null means the object reference refers to no object at all
+	 c) false is a boolean (one of the primitive types)
+	 d) empty string a string (one of the primitive types)
+// empty string is a string of length zero
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Programming Exercises: Name your packages according to the Programming Exercise identifier, except
+replace the period with underscore. You will want a Driver class (with a static main() method) to drive your program.
+See package P0_2 for an example.
+
+7 points each
+P8.4 Address
+P8.5 SodaCan
+P8.6 Car
+P8.8 Student
+P8.9 ComboLock
+
+12 points each
+P8.11 Letter
+P8.14 Static methods
+P8.15 Object-oriented approach of above
+	  The latter one is more object-oriented, because it groups a type of objects within the same class sharing common parameters

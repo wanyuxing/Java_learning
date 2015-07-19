@@ -14,6 +14,8 @@ public class SodaCan
 	public double getSurfaceArea()
 	{
 		return 2 * Math.PI * radius * height + Math.pow(radius, 2) * Math.PI * 2;
+		// or you can write
+		// return 2 * Math.PI * radius * (radius + height);
 	}
 	
 	public double getVolume()

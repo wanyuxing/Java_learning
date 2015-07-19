@@ -2,6 +2,8 @@ package Exercises3;
 
 import java.util.ArrayList;
 
+// good!
+
 public class Grade {
 	private ArrayList<Double> grades;
 	private double total;
