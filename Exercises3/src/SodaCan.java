@@ -1,6 +1,4 @@
-package Exercises3;
-
-public class SodaCan 
+public class SodaCan
 {
 	private double height;
 	private double radius;

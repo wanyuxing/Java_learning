@@ -1,5 +1,3 @@
-package Exercises3;
-
 public class Address 
 {
 	private int houseNumber;

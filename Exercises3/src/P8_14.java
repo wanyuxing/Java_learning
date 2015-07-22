@@ -1,5 +1,3 @@
-package Exercises3;
-
 import java.util.Scanner;
 
 public class P8_14 {
