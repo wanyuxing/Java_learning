@@ -1,3 +1,5 @@
+package P9_14;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -5,15 +7,15 @@ public class MeasurableDemo
 {
 	public static void main(String[] args) 
 	{
-		ArrayList<Measurable> cans = new ArrayList<Measurable>();
+		ArrayList<Measurable> Cans = new ArrayList<Measurable>();
 		Scanner in = new Scanner(System.in);
 		do {
 			System.out.print("Pls input the height and radius of a new can(input 'End' to end): ");
 			String a = in.next();
 			if (a.equals("End")) { break;}
-			else { cans.add(new SodaCan2(Double.parseDouble(a), in.nextDouble())); }
+			else { Cans.add(new SodaCan2(Double.parseDouble(a), in.nextDouble())); }
 		} while (true);
-		System.out.println("Average surface area is: " + average(cans));
+		System.out.println("Average surface area is: " + average(Cans));
 	}
 	
 	public static double average(ArrayList<Measurable> objects)
