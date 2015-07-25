@@ -12,7 +12,9 @@ class Appointment
 {
 	private String description;
 	private String date; // in format yyyymmdd
-	private ArrayList<Appointment> appointments = new ArrayList<Appointment>();
+	// why don't you use 3 int to store year, date, month? won't that make your life easier?
+	private ArrayList<Appointment> appointments = new ArrayList<Appointment>(); // shouldn't it be in AppointmentBook class instead of here?
+	// remember, this is an Appointment class, which is the abstraction of a SINGLE appointment 
 	private PrintWriter out;
 	
 	Appointment(String description, String date)
@@ -36,6 +38,8 @@ class Appointment
 		return date.substring(0, 4).equals(Integer.toString(year)) && date.substring(4, 6).equals(monthStr) && date.substring(6).equals(dayStr); 
 	}
 	
+
+	// putting addAppointment here doesn't make sense
 	void addAppointment(String type, String description, String date)
 	{
 		if (type.equals("daily")) { appointments.add(new Daily(description, date)); }
@@ -43,6 +47,8 @@ class Appointment
 		if (type.equals("onetime")) { appointments.add(new Onetime(description, date)); }
 	}
 	
+
+	// save() and load() shouldn't be here. think it through.
 	void save() throws FileNotFoundException
 	{
 		Scanner console = new Scanner(System.in);

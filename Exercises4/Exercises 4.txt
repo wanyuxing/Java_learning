@@ -1,0 +1,78 @@
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\
+proInterfaces : Interfaces
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\
+
+Review Exercises: 3 points each. Starting on page 456 of textbook Big Java. Place your answers in\
+ReviewExercises.txt located in the root of this project.\
+
+R9.1 Superclas and subclass\
+     a) Employee > Manager
+     b) Student > GraduateStudent
+     c) Person > Student
+     d) Employee > Professor
+     e) BankAccount > CheckingAccount
+     f) Vehicle > Car
+     g) Vehicle > Minivan
+     h) Car > Minivan
+     i) Vehicle > Truck
+R9.4 SavingsAccount\
+     a) inherited: Deposit, getBalance
+     b) override: Monthend, withdraw
+     c) add: SetInterestRate
+
+// why do you capitalize the first letter? They're supposed to be lower case letters
+
+
+
+R9.6 Sandwich\
+     legal assignments: a/d
+R9.7 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located\
+     Object > Person / Classroom
+     Person > Employee / Student
+     Employee > Instructor
+R9.8 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located\
+     Vehicle > Car / Bicycle / SportUtilityVehicle
+     Car > Truck / Sedan / Minivan
+     Sedan > Coupe
+     Truck > PickupTruck
+     Bicycle > Motorcycle
+R9.9 Inheretence -use the UML diagram tool in IntelliJ and indicate to the grader where uml file is located\
+     Person / Lecture / ComputerLab / DepartmentChair
+     Person > Employee / Student
+     Employee > Professor / TeachingAssistant / Secretary / Janitor / SeminarSpeaker
+     Lecture > Course / Seminar
+R9.10 Casting\
+     BankAccount is an object casting, while int is a value type casting. After object casting, the casted object can have all the methods this specific object enjoys
+R9.11 instanceof operator\
+     a/b/d/e
+R9.13 Interfaces\
+     b/c
+
+// no, c will not throw an exception
+
+
+
+R9.14 Edible interface\
+     a/e/g/h
+
+// your answer is wrong. think this through and try it out in intellij.
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\
+
+Programming Exercises: Name your packages according to the Programming Exercise identifier, except\
+replace the period with underscore. You will want a Driver class (with a static main() method) to drive your program.\
+See package P0_3 for an example.\
+
+10 points each\
+P9.8 Person\
+P9.10 BetterRectangle\
+P9.13 Point\
+P9.14 SodaCan\
+
+15 points each\
+P9.16 Measurable interface\
+P9.23 Appointment book\
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&}

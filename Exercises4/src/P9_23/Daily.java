@@ -7,6 +7,7 @@ class Daily extends Appointment
 	Daily(String description, String date)
 	{ super(description, date); }
 	
+	
 	boolean occursOn(int year, int month, int day)
 	{
 		DecimalFormat df = new DecimalFormat("00");

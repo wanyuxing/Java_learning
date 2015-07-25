@@ -7,7 +7,8 @@ public class Instructor extends Person
 	public Instructor(String name, String birth, int salary)
 	{
 		super(name, birth);
-		this.salary = salary;
+		this.salary = salary; // why no "getSalary" method? 
+		// having "getSalary" is not required in the question itself, but it's good convention to have this method
 	}
 	
 	public String toString()

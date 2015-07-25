@@ -7,6 +7,7 @@ class Monthly extends Appointment
 	Monthly(String description, String date)
 	{ super(description, date); }
 	
+	// modify your Appointment class, then you won't be needing occursOn method here
 	boolean occursOn(int year, int month, int day)
 	{
 		DecimalFormat df = new DecimalFormat("00");

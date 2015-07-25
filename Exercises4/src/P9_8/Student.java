@@ -7,7 +7,7 @@ public class Student extends Person
 	public Student(String name, String birth, String major)
 	{
 		super (name, birth);
-		this.major = major;
+		this.major = major; // why no "getMajor" method?
 	}
 	
 	public String toString()

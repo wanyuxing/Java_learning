@@ -18,6 +18,7 @@ public class MeasurableDemo
 		System.out.println("Average surface area is: " + average(Cans));
 	}
 	
+	// creating this "average" method isn't absolutely necessary
 	public static double average(ArrayList<Measurable> objects)
 	{
 		if (objects.size() == 0) { return 0; }
