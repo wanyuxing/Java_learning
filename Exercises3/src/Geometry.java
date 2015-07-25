@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// I know it's a simple question, but... there supposed to be 6 methods and I only see one >.<
+
 public class Geometry 
 {
 	public static double sphereVolume(double r)

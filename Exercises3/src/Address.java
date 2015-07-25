@@ -37,5 +37,8 @@ public class Address
 	{
 		if (this.postalCode < other.postalCode) {return true;}
 		else {return false;}
+
+		// of you can write:
+		// return this.postalCode > test.apartmentNumber;
 	}
 }
